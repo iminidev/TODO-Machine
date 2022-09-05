@@ -1,0 +1,36 @@
+.todo-item {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background-color: #FFF;
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    margin: 1rem 0;
+}
+
+.icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.icon-check:hover {
+    color: #119118;
+}
+
+.icon-check--active {
+    color: #119118;
+}
+
+.icon-delete:hover {
+    color: #b31010;
+}
+
+.todo-item_p {
+    margin: 0 0.7rem;
+}
+
+.todo-item_p--completed {
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.7);
+}
